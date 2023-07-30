@@ -1,0 +1,19 @@
+.dragDropContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  .dragDropContent {
+    text-align: center;
+    .dragDropText {
+      font-size: 12px;
+      font-weight: 400;
+      span {
+        color: #5048E5;
+          font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}
